@@ -1,3 +1,4 @@
+Panel
 Node2D
 Button
 CanvasLayer
@@ -5,7 +6,6 @@ Label
 HBoxContainer
 VBoxContainer
 TextEdit
-Panel
 HTTPRequest
 TextureRect
 Line2D

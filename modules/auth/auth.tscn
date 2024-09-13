@@ -89,13 +89,13 @@ size_flags_horizontal = 3
 custom_minimum_size = Vector2(0, 35)
 layout_mode = 2
 size_flags_horizontal = 3
-text = "124"
+placeholder_text = "Input you faction ID"
 
 [node name="password" type="TextEdit" parent="Panel/HBoxContainer/VBoxContainer2"]
 custom_minimum_size = Vector2(0, 35)
 layout_mode = 2
 size_flags_horizontal = 3
-text = "124"
+placeholder_text = "Input your password"
 
 [node name="Login" type="Button" parent="Panel"]
 layout_mode = 0

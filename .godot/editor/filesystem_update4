@@ -4,4 +4,7 @@ res://shaders/nexus.gdshader
 res://vendor/shaders/outline.gdshader
 res://modules/units/mage.tscn
 res://modules/auth/auth.tscn
-res://testData/report-neworigins-v7-56-0.json
+res://client.tscn
+res://client.gd
+res://modules/nexus/nexus.gd
+res://modules/auth/auth.gd

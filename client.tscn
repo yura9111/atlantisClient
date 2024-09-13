@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://chaxap0jgtvui"]
+
+[ext_resource type="PackedScene" uid="uid://c4hy4svhrxgk5" path="res://modules/auth/auth.tscn" id="1_d35a3"]
+[ext_resource type="Script" path="res://client.gd" id="1_o6psu"]
+
+[node name="client" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_o6psu")
+
+[node name="auth" parent="." instance=ExtResource("1_d35a3")]
+layout_mode = 1
+
+[connection signal="loged_in" from="auth" to="." method="_on_auth_loged_in"]
