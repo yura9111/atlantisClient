@@ -8,3 +8,4 @@ res://client.tscn
 res://client.gd
 res://modules/nexus/nexus.gd
 res://modules/auth/auth.gd
+res://README.md
