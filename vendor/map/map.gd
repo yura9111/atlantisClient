@@ -4,7 +4,7 @@ extends Node2D
 # Declare member variables here. Examples:
 # var a: int = 2
 # var b: String = "text"
-var coordinateSystem = HexMap.new(10, 4, 100, Vector2(1,1), false, Callable(self, "get_tile"));
+var coordinateSystem = HexMap.new(10, 4, 100, Vector2(1,1), true, Callable(self, "get_tile"));
 var mouseOverOldCoordinates;
 var zoom = 1.0;
 signal onClick;
@@ -15,7 +15,7 @@ var camera;
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	var v0 : Vector2 = Vector2(0, 0)
-	coordinateSystem = HexMap.new(1, 1, 147.75, v0, true, Callable(self, "get_tile"));
+	coordinateSystem = HexMap.new(1, 1, 147, v0, true, Callable(self, "get_tile"));
 	pass # Replace with function body.
 	
 func get_tile(tileCoordinates, k : int):

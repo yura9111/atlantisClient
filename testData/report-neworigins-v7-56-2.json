@@ -1,0 +1,4582 @@
+{
+  "administrative": {
+	"email": "gabeNewell@valve.com",
+	"password": "valve",
+	"password_unset": false,
+	"show_unit_attitudes": false,
+	"times_sent": true
+  },
+  "attitudes": {
+	"ally": [],
+	"default": "neutral",
+	"friendly": [],
+	"hostile": [],
+	"neutral": [],
+	"unfriendly": [
+	  {
+		"name": "Creatures",
+		"number": 2
+	  }
+	]
+  },
+  "date": {
+	"month": "March",
+	"year": 1
+  },
+  "engine": {
+	"ruleset": "NewOrigins",
+	"ruleset_version": "3.0.0 (beta)",
+	"version": "5.2.5 (beta)"
+  },
+  "events": [
+	{
+	  "category": "reward",
+	  "message": "Times reward of 200 silver."
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1591
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1591
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1592
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1592
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1593
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1593
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1594
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1594
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1595
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1595
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $36.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1596
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $10.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1596
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $2760.",
+	  "unit": {
+		"name": "Guards",
+		"number": 1597
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $100.",
+	  "unit": {
+		"name": "Copy",
+		"number": 910
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $966.",
+	  "unit": {
+		"name": "Circus",
+		"number": 1598
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1599
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1600
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1601
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1602
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1603
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1604
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1605
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1606
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1607
+	  }
+	},
+	{
+	  "category": "claim",
+	  "message": "Claims $96.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1608
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1591
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1592
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1593
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1594
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1595
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1596
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys 60 goblins [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Guards",
+		"number": 1597
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys 21 goblins [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Circus",
+		"number": 1598
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1599
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1600
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1601
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1602
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1603
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1604
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1605
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1606
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1607
+	  }
+	},
+	{
+	  "category": "buy",
+	  "message": "Buys goblin [GBLN] at $36 each.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1608
+	  }
+	},
+	{
+	  "category": "withdraw",
+	  "message": "Withdraws 2 meals [MEAL].",
+	  "unit": {
+		"name": "Copy",
+		"number": 910
+	  }
+	},
+	{
+	  "category": "withdraw",
+	  "message": "Withdraws 20 meals [MEAL].",
+	  "unit": {
+		"name": "Guards",
+		"number": 1597
+	  }
+	},
+	{
+	  "category": "withdraw",
+	  "message": "Withdraws 7 meals [MEAL].",
+	  "unit": {
+		"name": "Circus",
+		"number": 1598
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,70) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,70) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,68) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,68) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,68) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (19,67) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (19,67) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (19,67) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1591
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,68) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1592
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to desert (20,70) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1593
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,67) in Blecishchan to desert (19,65) in Feltiuckfex.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,67) in Blecishchan to desert (18,66) in Feltiuckfex.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (20,68) in Blecishchan to desert (21,69) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (20,68) in Blecishchan to desert (21,67) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (20,68) in Blecishchan to desert (20,66) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to jungle (19,71) in Creffviom.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1594
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to jungle (18,70) in Creffviom.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1595
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (19,69) in Blecishchan to forest (18,68) in Sisbryl.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1596
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "Walks from desert (20,70) in Blecishchan to desert (21,71) in Blecishchan.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	},
+	{
+	  "category": "movement",
+	  "message": "MOVE: Unit has insufficient movement points; remaining moves queued.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies earth lore at a cost of 100 silver [SILV].",
+	  "unit": {
+		"name": "Copy",
+		"number": 910
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies combat at a cost of 600 silver [SILV].",
+	  "unit": {
+		"name": "Guards",
+		"number": 1597
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies entertainment at a cost of 210 silver [SILV].",
+	  "unit": {
+		"name": "Circus",
+		"number": 1598
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1599
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1600
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1601
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1602
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1603
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1604
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1605
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1606
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1607
+	  }
+	},
+	{
+	  "category": "study",
+	  "message": "Studies stealth at a cost of 50 silver [SILV].",
+	  "unit": {
+		"name": "Thief",
+		"number": 1608
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 2 meals [MEAL] for maintenance.",
+	  "unit": {
+		"name": "Copy",
+		"number": 910
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 20 meals [MEAL] for maintenance.",
+	  "unit": {
+		"name": "Guards",
+		"number": 1597
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 7 meals [MEAL] for maintenance.",
+	  "unit": {
+		"name": "Circus",
+		"number": 1598
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1589
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1590
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1588
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1591
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1587
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1596
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1592
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1599
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1600
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1601
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1602
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1603
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1604
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1605
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1606
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1607
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Thief",
+		"number": 1608
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1586
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1595
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1584
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1593
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1594
+	  }
+	},
+	{
+	  "category": "maintenance",
+	  "message": "Consumes 10 silver [SILV] for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 1585
+	  }
+	}
+  ],
+  "item_reports": [
+	{
+	  "description": "silver [SILV], weight 0. This is the currency of Atlantis.",
+	  "name": "silver",
+	  "tag": "SILV"
+	},
+	{
+	  "description": "goblin [GBLN], weight 5, walking capacity 2, moves 2 hexes per month. This race may study quarrying [QUAR], crossbow [XBOW], shipbuilding [SHIP], weaponsmith [WEAP] and entertainment [ENTE] to level 5 and all other skills to level 2.",
+	  "name": "goblin",
+	  "tag": "GBLN"
+	},
+	{
+	  "description": "meal [MEAL], weight 1, costs 20 silver to withdraw. This item can be eaten to provide 30 silver towards a unit's maintenance cost.",
+	  "name": "meal",
+	  "tag": "MEAL"
+	}
+  ],
+  "name": "Copy & Bara Union",
+  "number": 56,
+  "object_reports": [],
+  "regions": [
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 19,
+		"y": 65,
+		"z": 1
+	  },
+	  "entertainment": 20,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 63,
+			  "z": 1
+			},
+			"province": "E'e",
+			"terrain": "forest"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 64,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Knotjeholm",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 64,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 40,
+			"name": "goblin",
+			"plural": "goblins",
+			"price": 28,
+			"tag": "GBLN"
+		  },
+		  {
+			"amount": 8,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 672,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1011,
+		"race": "goblins"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 11,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 10,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 16,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		}
+	  ],
+	  "province": "Feltiuckfex",
+	  "tax": 404,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Kiiran",
+			"number": 3
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "gnoll",
+			  "plural": "gnolls",
+			  "tag": "GNOL"
+			}
+		  ],
+		  "name": "Knowledge",
+		  "number": 1197
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1589,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.0,
+		"max": 214
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 18,
+		"y": 66,
+		"z": 1
+	  },
+	  "entertainment": 23,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 64,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Sisbryl",
+			"terrain": "forest"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 47,
+			"name": "goblin",
+			"plural": "goblins",
+			"price": 28,
+			"tag": "GBLN"
+		  },
+		  {
+			"amount": 9,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 660,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1197,
+		"race": "goblins"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 17,
+		  "name": "livestock",
+		  "plural": "livestock",
+		  "tag": "LIVE"
+		},
+		{
+		  "amount": 18,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 14,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 13,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Feltiuckfex",
+	  "tax": 430,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1590,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 11.8,
+		"max": 204
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 20,
+		"y": 66,
+		"z": 1
+	  },
+	  "entertainment": 21,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 64,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Knotjeholm",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 49,
+			"name": "goblin",
+			"plural": "goblins",
+			"price": 27,
+			"tag": "GBLN"
+		  },
+		  {
+			"amount": 9,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 644,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1244,
+		"race": "goblins"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 18,
+		  "name": "livestock",
+		  "plural": "livestock",
+		  "tag": "LIVE"
+		},
+		{
+		  "amount": 16,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 13,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 19,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 373,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Kiiran",
+			"number": 3
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "gnoll",
+			  "plural": "gnolls",
+			  "tag": "GNOL"
+			}
+		  ],
+		  "name": "Knowledge",
+		  "number": 1199
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1588,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 11.5,
+		"max": 175
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 19,
+		"y": 67,
+		"z": 1
+	  },
+	  "entertainment": 30,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Sisbryl",
+			"terrain": "forest"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 48,
+			"name": "gnoll",
+			"plural": "gnolls",
+			"price": 40,
+			"tag": "GNOL"
+		  },
+		  {
+			"amount": 9,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 705,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1220,
+		"race": "gnolls"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 14,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 13,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 17,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 11,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 634,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "attitude": "unfriendly",
+		  "flags": {
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "sphinx",
+			  "plural": "sphinxes",
+			  "tag": "SPHI"
+			}
+		  ],
+		  "name": "Sphinx",
+		  "number": 238
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1591,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.6,
+		"max": 300
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 21,
+		"y": 67,
+		"z": 1
+	  },
+	  "entertainment": 20,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 65,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 42,
+			"name": "goblin",
+			"plural": "goblins",
+			"price": 28,
+			"tag": "GBLN"
+		  },
+		  {
+			"amount": 8,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 660,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1068,
+		"race": "goblins"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 15,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 19,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 12,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 384,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1587,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 11.8,
+		"max": 188
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 18,
+		"y": 68,
+		"z": 1
+	  },
+	  "entertainment": 37,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Feltiuckfex",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 59,
+			"name": "wood elf",
+			"plural": "wood elves",
+			"price": 39,
+			"tag": "WELF"
+		  },
+		  {
+			"amount": 11,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 694,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1480,
+		"race": "wood elves"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 27,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 37,
+		  "name": "wood",
+		  "plural": "wood",
+		  "tag": "WOOD"
+		},
+		{
+		  "amount": 15,
+		  "name": "fur",
+		  "plural": "furs",
+		  "tag": "FUR"
+		}
+	  ],
+	  "province": "Sisbryl",
+	  "tax": 710,
+	  "terrain": "forest",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1596,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.4,
+		"max": 320
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 20,
+		"y": 68,
+		"z": 1
+	  },
+	  "entertainment": 34,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 66,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 50,
+			"name": "human",
+			"plural": "humans",
+			"price": 41,
+			"tag": "HUMN"
+		  },
+		  {
+			"amount": 10,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 722,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1252,
+		"race": "humans"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 12,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 11,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 11,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 16,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 726,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1592,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.9,
+		"max": 341
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 19,
+		"y": 69,
+		"z": 1
+	  },
+	  "entertainment": 585,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Sisbryl",
+			"terrain": "forest"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 39,
+			"name": "spices",
+			"plural": "spices",
+			"price": 68,
+			"tag": "SPIC"
+		  },
+		  {
+			"amount": 29,
+			"name": "vodka",
+			"plural": "vodka",
+			"price": 67,
+			"tag": "VODK"
+		  },
+		  {
+			"amount": 383,
+			"name": "goblin",
+			"plural": "goblins",
+			"price": 36,
+			"tag": "GBLN"
+		  },
+		  {
+			"amount": 76,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 845,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": [
+		  {
+			"amount": 126,
+			"name": "grain",
+			"plural": "grain",
+			"price": 18,
+			"tag": "GRAI"
+		  },
+		  {
+			"amount": 132,
+			"name": "livestock",
+			"plural": "livestock",
+			"price": 21,
+			"tag": "LIVE"
+		  },
+		  {
+			"amount": 172,
+			"name": "fish",
+			"plural": "fish",
+			"price": 40,
+			"tag": "FISH"
+		  },
+		  {
+			"amount": 23,
+			"name": "lasso",
+			"plural": "lassoes",
+			"price": 75,
+			"tag": "LASS"
+		  },
+		  {
+			"amount": 33,
+			"name": "longbow",
+			"plural": "longbows",
+			"price": 97,
+			"tag": "LBOW"
+		  },
+		  {
+			"amount": 26,
+			"name": "leather armor",
+			"plural": "leather armor",
+			"price": 75,
+			"tag": "LARM"
+		  },
+		  {
+			"amount": 19,
+			"name": "bag",
+			"plural": "bags",
+			"price": 108,
+			"tag": "BAG"
+		  },
+		  {
+			"amount": 70,
+			"name": "pearls",
+			"plural": "pearls",
+			"price": 393,
+			"tag": "PEAR"
+		  },
+		  {
+			"amount": 54,
+			"name": "perfume",
+			"plural": "perfume",
+			"price": 380,
+			"tag": "PERF"
+		  }
+		]
+	  },
+	  "population": {
+		"amount": 9591,
+		"race": "goblins"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 10,
+		  "name": "livestock",
+		  "plural": "livestock",
+		  "tag": "LIVE"
+		},
+		{
+		  "amount": 19,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 10,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 19,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "settlement": {
+		"name": "Honmioxfiw",
+		"size": "city"
+	  },
+	  "tax": 9782,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Guardsmen",
+			"number": 1
+		  },
+		  "flags": {
+			"avoid": false,
+			"guard": true
+		  },
+		  "items": [
+			{
+			  "amount": 120,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			},
+			{
+			  "amount": 120,
+			  "name": "sword",
+			  "plural": "swords",
+			  "tag": "SWOR"
+			}
+		  ],
+		  "name": "City Guard",
+		  "number": 52
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 15
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": false,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Copy",
+		  "number": 910,
+		  "orders": [
+			{
+			  "order": "@Withdraw 2 meals"
+			},
+			{
+			  "order": "@claim 100"
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"can_study": [
+			  {
+				"name": "earthquake",
+				"tag": "EQUA"
+			  },
+			  {
+				"name": "force shield",
+				"tag": "FSHI"
+			  },
+			  {
+				"name": "energy shield",
+				"tag": "ESHI"
+			  },
+			  {
+				"name": "spirit shield",
+				"tag": "SSHI"
+			  },
+			  {
+				"name": "magical healing",
+				"tag": "MHEA"
+			  },
+			  {
+				"name": "farsight",
+				"tag": "FARS"
+			  },
+			  {
+				"name": "mind reading",
+				"tag": "MIND"
+			  },
+			  {
+				"name": "weather lore",
+				"tag": "WEAT"
+			  },
+			  {
+				"name": "wolf lore",
+				"tag": "WOLF"
+			  },
+			  {
+				"name": "bird lore",
+				"tag": "BIRD"
+			  },
+			  {
+				"name": "necromancy",
+				"tag": "NECR"
+			  },
+			  {
+				"name": "demon lore",
+				"tag": "DEMO"
+			  },
+			  {
+				"name": "illusion",
+				"tag": "ILLU"
+			  },
+			  {
+				"name": "artifact lore",
+				"tag": "ARTI"
+			  }
+			],
+			"known": [
+			  {
+				"level": 1,
+				"name": "observation",
+				"skill_days": 35,
+				"tag": "OBSE"
+			  },
+			  {
+				"level": 1,
+				"name": "force",
+				"skill_days": 30,
+				"tag": "FORC"
+			  },
+			  {
+				"level": 1,
+				"name": "pattern",
+				"skill_days": 30,
+				"tag": "PATT"
+			  },
+			  {
+				"level": 1,
+				"name": "spirit",
+				"skill_days": 30,
+				"tag": "SPIR"
+			  },
+			  {
+				"level": 1,
+				"name": "gate lore",
+				"skill_days": 30,
+				"tag": "GATE"
+			  },
+			  {
+				"level": 1,
+				"name": "fire",
+				"skill_days": 30,
+				"tag": "FIRE"
+			  },
+			  {
+				"level": 3,
+				"name": "combat",
+				"skill_days": 180,
+				"tag": "COMB"
+			  },
+			  {
+				"level": 1,
+				"name": "earth lore",
+				"skill_days": 30,
+				"tag": "EART"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 10
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 420
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 60,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Guards",
+		  "number": 1597,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "combat",
+				"skill_days": 30,
+				"tag": "COMB"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 300
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 147
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": false,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 21,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Circus",
+		  "number": 1598,
+		  "orders": [
+			{
+			  "order": "@study \"entertainment\""
+			},
+			{
+			  "order": "@Withdraw 7 meals"
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "entertainment",
+				"skill_days": 30,
+				"tag": "ENTE"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 105
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1599,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1600,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1601,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1602,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1603,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1604,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1605,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1606,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1607,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Thief",
+		  "number": 1608,
+		  "orders": [
+			{
+			  "order": "@study \"stealth\""
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": [
+			  {
+				"level": 1,
+				"name": "stealth",
+				"skill_days": 30,
+				"tag": "STEA"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 15.1,
+		"max": 1956
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 21,
+		"y": 69,
+		"z": 1
+	  },
+	  "entertainment": 25,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 67,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 42,
+			"name": "gnoll",
+			"plural": "gnolls",
+			"price": 40,
+			"tag": "GNOL"
+		  },
+		  {
+			"amount": 8,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 705,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1062,
+		"race": "gnolls"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 10,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 15,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 15,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 14,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 552,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1586,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.6,
+		"max": 271
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 18,
+		"y": 70,
+		"z": 1
+	  },
+	  "entertainment": 23,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Sisbryl",
+			"terrain": "forest"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 17,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 44,
+			"name": "gnome",
+			"plural": "gnomes",
+			"price": 29,
+			"tag": "GNOM"
+		  },
+		  {
+			"amount": 8,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 677,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1121,
+		"race": "gnomes"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 23,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 14,
+		  "name": "wood",
+		  "plural": "wood",
+		  "tag": "WOOD"
+		},
+		{
+		  "amount": 35,
+		  "name": "herb",
+		  "plural": "herbs",
+		  "tag": "HERB"
+		},
+		{
+		  "amount": 13,
+		  "name": "fur",
+		  "plural": "furs",
+		  "tag": "FUR"
+		}
+	  ],
+	  "province": "Creffviom",
+	  "structures": [
+		{
+		  "closed": true,
+		  "name": "Crypt",
+		  "number": 1,
+		  "type": "Crypt",
+		  "units": null
+		}
+	  ],
+	  "tax": 470,
+	  "terrain": "jungle",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1595,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.1,
+		"max": 227
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 20,
+		"y": 70,
+		"z": 1
+	  },
+	  "entertainment": 34,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 68,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Lesles",
+			"terrain": "swamp"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 71,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 58,
+			"name": "gnoll",
+			"plural": "gnolls",
+			"price": 39,
+			"tag": "GNOL"
+		  },
+		  {
+			"amount": 11,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 683,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1469,
+		"race": "gnolls"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 11,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 18,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 12,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 17,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 646,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1584,
+		  "orders": [
+			{
+			  "order": "MOVE S"
+			}
+		  ],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1593,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.2,
+		"max": 292
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 19,
+		"y": 71,
+		"z": 1
+	  },
+	  "entertainment": 20,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"settlement": {
+			  "name": "Honmioxfiw",
+			  "size": "city"
+			},
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Lesles",
+			"terrain": "swamp"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 19,
+			  "y": 73,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Atlantis Ocean",
+			"terrain": "ocean"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 18,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Creffviom",
+			"terrain": "jungle"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 55,
+			"name": "orc",
+			"plural": "orcs",
+			"price": 35,
+			"tag": "ORC"
+		  },
+		  {
+			"amount": 11,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 616,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1393,
+		"race": "orcs"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 36,
+		  "name": "livestock",
+		  "plural": "livestock",
+		  "tag": "LIVE"
+		},
+		{
+		  "amount": 13,
+		  "name": "wood",
+		  "plural": "wood",
+		  "tag": "WOOD"
+		},
+		{
+		  "amount": 38,
+		  "name": "herb",
+		  "plural": "herbs",
+		  "tag": "HERB"
+		},
+		{
+		  "amount": 12,
+		  "name": "fur",
+		  "plural": "furs",
+		  "tag": "FUR"
+		}
+	  ],
+	  "province": "Creffviom",
+	  "tax": 278,
+	  "terrain": "jungle",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1594,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 11.0,
+		"max": 127
+	  }
+	},
+	{
+	  "coordinates": {
+		"label": "surface",
+		"x": 21,
+		"y": 71,
+		"z": 1
+	  },
+	  "entertainment": 26,
+	  "exits": [
+		{
+		  "direction": "North",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 69,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Northeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		},
+		{
+		  "direction": "Southeast",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 22,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Loltin",
+			"terrain": "tundra"
+		  }
+		},
+		{
+		  "direction": "South",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 21,
+			  "y": 73,
+			  "z": 1
+			},
+			"province": "Loltin",
+			"terrain": "tundra"
+		  }
+		},
+		{
+		  "direction": "Southwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 72,
+			  "z": 1
+			},
+			"province": "Lesles",
+			"terrain": "swamp"
+		  }
+		},
+		{
+		  "direction": "Northwest",
+		  "region": {
+			"coordinates": {
+			  "label": "surface",
+			  "x": 20,
+			  "y": 70,
+			  "z": 1
+			},
+			"province": "Blecishchan",
+			"terrain": "desert"
+		  }
+		}
+	  ],
+	  "markets": {
+		"for_sale": [
+		  {
+			"amount": 46,
+			"name": "gnoll",
+			"plural": "gnolls",
+			"price": 39,
+			"tag": "GNOL"
+		  },
+		  {
+			"amount": 9,
+			"name": "leader",
+			"plural": "leaders",
+			"price": 688,
+			"tag": "LEAD"
+		  }
+		],
+		"wanted": []
+	  },
+	  "population": {
+		"amount": 1167,
+		"race": "gnolls"
+	  },
+	  "present": true,
+	  "products": [
+		{
+		  "amount": 15,
+		  "name": "grain",
+		  "plural": "grain",
+		  "tag": "GRAI"
+		},
+		{
+		  "amount": 19,
+		  "name": "iron",
+		  "plural": "iron",
+		  "tag": "IRON"
+		},
+		{
+		  "amount": 15,
+		  "name": "stone",
+		  "plural": "stone",
+		  "tag": "STON"
+		},
+		{
+		  "amount": 11,
+		  "name": "camel",
+		  "plural": "camels",
+		  "tag": "CAME"
+		}
+	  ],
+	  "province": "Blecishchan",
+	  "tax": 536,
+	  "terrain": "desert",
+	  "units": [
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 7
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": true,
+			"behind": true,
+			"consume": "unit",
+			"guard": false,
+			"holding": false,
+			"no_aid": true,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "goblin",
+			  "plural": "goblins",
+			  "tag": "GBLN"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 1585,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"known": []
+		  },
+		  "visited": [],
+		  "weight": 5
+		}
+	  ],
+	  "wages": {
+		"amount": 12.3,
+		"max": 256
+	  }
+	}
+  ],
+  "skill_reports": [
+	{
+	  "description": "Earth Lore is the study of nature, plants, and animals. A mage with knowledge of Earth Lore can use his knowledge of nature to aid local farmers, raising money for himself, and aiding the production of grain or livestock in the region. To use the spell, CAST Earth_Lore; the mage will receive an amount of money based on his level, and the economy of the region. Also, a mage with knowledge of Earth Lore will detect the use of Earth Lore by any other mage in the same region. This skill requires pattern [PATT] 1 and force [FORC] 1 to begin to study. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "earth lore",
+	  "tag": "EART"
+	},
+	{
+	  "description": "A unit with this skill may use the ENTERTAIN order to generate funds. The amount of silver gained will be 30 per man, times the level of the entertainers. This amount is limited by the region that the unit is in. This skill costs 10 silver per month of study.",
+	  "level": 1,
+	  "name": "entertainment",
+	  "tag": "ENTE"
+	},
+	{
+	  "description": "A unit with this skill is concealed from being seen, except by units with an Observation skill greater than or equal to the stealthy unit's Stealth level. This skill costs 50 silver per month of study.",
+	  "level": 1,
+	  "name": "stealth",
+	  "tag": "STEA"
+	}
+  ],
+  "statistics": [
+	{
+	  "item_name": "leader [LEAD]",
+	  "max": 8,
+	  "rank": 33,
+	  "total": 190
+	},
+	{
+	  "item_name": "104 goblins [GBLN]",
+	  "max": 104,
+	  "rank": 1,
+	  "total": 209
+	}
+  ],
+  "status": {
+	"apprentices": {
+	  "allowed": 3,
+	  "current": 0,
+	  "name": "Apprentice"
+	},
+	"mages": {
+	  "allowed": 2,
+	  "current": 1
+	},
+	"quartermasters": {
+	  "allowed": 2,
+	  "current": 0
+	},
+	"regions": {
+	  "allowed": 10,
+	  "current": 0
+	}
+  },
+  "type": {
+	"magic": 1,
+	"martial": 1
+  },
+  "unclaimed_silver": 4636
+}

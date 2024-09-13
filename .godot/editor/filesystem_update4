@@ -9,3 +9,10 @@ res://client.gd
 res://modules/nexus/nexus.gd
 res://modules/auth/auth.gd
 res://README.md
+res://modules/map/map.tscn
+res://modules/map/map.gd
+res://modules/gameReport/gameReport.gd
+res://testData/report-neworigins-v7-56-2.json
+res://vendor/map/map.tscn
+res://vendor/map/map.gd
+res://vendor/hexMap/HexMap.gd

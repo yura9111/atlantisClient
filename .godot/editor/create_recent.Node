@@ -1,8 +1,8 @@
-Panel
+Label
 Node2D
+Panel
 Button
 CanvasLayer
-Label
 HBoxContainer
 VBoxContainer
 TextEdit
