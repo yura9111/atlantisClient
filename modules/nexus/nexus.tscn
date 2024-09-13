@@ -1,0 +1,83 @@
+[gd_scene load_steps=8 format=3 uid="uid://hqrlyknkt8ey"]
+
+[ext_resource type="Script" path="res://modules/nexus/nexus.gd" id="1_gm02r"]
+[ext_resource type="Shader" path="res://shaders/nexus.gdshader" id="10_nrx3a"]
+[ext_resource type="PackedScene" uid="uid://dmjjuh00ww37" path="res://modules/units/mage.tscn" id="11_fw3hq"]
+[ext_resource type="PackedScene" path="res://vendor/camera2D/Camera2D.tscn" id="12_837tr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5jlks"]
+shader = ExtResource("10_nrx3a")
+shader_parameter/anim_speed = 0.0
+shader_parameter/star_brightness = 0.05
+shader_parameter/dust = 0.125
+shader_parameter/dist_fade = 0.35
+shader_parameter/pixelation = 1000.0
+shader_parameter/quantization_levels = 256
+shader_parameter/dust_color = Color(0, 0, 0, 1)
+shader_parameter/saturation = 1.0
+shader_parameter/layers = 7.0
+shader_parameter/iterations = 12
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_snp7j"]
+load_path = "res://.godot/imported/hexForestBroadleafForester00.png-792950e71af7cc047997385e5822c695.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7t8xa"]
+load_path = "res://.godot/imported/hexUnderDirt00.png-bc01841271a02e29b901cb5ef68728c0.ctex"
+
+[node name="nexus" type="Node2D"]
+script = ExtResource("1_gm02r")
+
+[node name="stars" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_5jlks")
+position = Vector2(2245, 972)
+scale = Vector2(28.1484, 10.538)
+texture = SubResource("CompressedTexture2D_snp7j")
+
+[node name="structures" type="Node2D" parent="."]
+
+[node name="gateway" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(237, 620)
+texture = SubResource("CompressedTexture2D_7t8xa")
+
+[node name="sprite" type="Sprite2D" parent="gateway"]
+position = Vector2(0, -156)
+texture = SubResource("CompressedTexture2D_snp7j")
+metadata/_edit_lock_ = true
+
+[node name="Button" type="Button" parent="gateway"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = -1
+anchor_left = 0.541
+anchor_right = 0.541
+offset_left = -279.496
+offset_top = -254.0
+offset_right = 23.504
+offset_bottom = 106.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Line2D" type="Line2D" parent="."]
+visible = false
+points = PackedVector2Array(913, 569, 1369, 194)
+
+[node name="Mage" parent="." instance=ExtResource("11_fw3hq")]
+z_index = 1
+position = Vector2(520, 344)
+
+[node name="Camera2D" parent="." instance=ExtResource("12_837tr")]
+position = Vector2(533, 330)
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="send" type="Button" parent="CanvasLayer"]
+offset_left = 58.0
+offset_top = 38.0
+offset_right = 201.0
+offset_bottom = 96.0
+text = "Send Orders!"
+
+[connection signal="select" from="Mage" to="." method="_on_mage_select"]
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_http_request_request_completed"]
+[connection signal="pressed" from="CanvasLayer/send" to="." method="_on_send_pressed"]

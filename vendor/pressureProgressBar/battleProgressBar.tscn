@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://library/pressureProgressBar/battleProgressBar.gd" type="Script" id=1]
+[ext_resource path="res://library/pressureProgressBar/crossedProgress.png" type="Texture2D" id=2]
+
+[node name="ColorRect" type="ColorRect"]
+offset_left = 4.0
+offset_top = 119.0
+offset_right = 694.0
+offset_bottom = 254.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="green" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.196078, 0.647059, 0.160784, 1 )
+
+[node name="red" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 540.0
+color = Color( 1, 0, 0, 1 )
+
+[node name="texture" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 461.5
+offset_right = -148.5
+clip_contents = true
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 2
+
+[node name="value" type="Label" parent="."]
+offset_left = 9.41608
+offset_top = 6.4263
+offset_right = 54.4161
+offset_bottom = 20.4263
+theme_override_colors/font_color = Color( 0, 0, 0, 1 )
+text = "22 / 40"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="change" type="Label" parent="."]
+offset_left = 486.184
+offset_top = -19.6438
+offset_right = 526.184
+offset_bottom = -5.6438
+text = "+10"

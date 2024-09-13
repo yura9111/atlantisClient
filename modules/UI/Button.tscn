@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://images/UI/UI_Button_Orange.png" type="Texture2D" id=1]
+[ext_resource path="res://resources/fonts/white.tres" type="FontFile" id=2]
+[ext_resource path="res://modules/UI/Button.gd" type="Script" id=3]
+
+[node name="TextureButton" type="TextureButton"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 122.129
+offset_top = 343.272
+offset_right = -137.871
+offset_bottom = -49.7279
+expand = true
+script = ExtResource( 3 )
+
+[node name="button2" type="NinePatchRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_fonts/font = ExtResource( 2 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true
+}

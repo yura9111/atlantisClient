@@ -1,0 +1,122 @@
+[gd_scene load_steps=5 format=3 uid="uid://c4hy4svhrxgk5"]
+
+[ext_resource type="Script" path="res://modules/auth/auth.gd" id="1_8k5td"]
+[ext_resource type="Shader" path="res://shaders/nexus.gdshader" id="2_2j5f4"]
+[ext_resource type="Texture2D" uid="uid://84ywdh0x5b06" path="res://images/hexes/desert.png" id="3_iax2n"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5jlks"]
+shader = ExtResource("2_2j5f4")
+shader_parameter/anim_speed = 0.0
+shader_parameter/star_brightness = 0.05
+shader_parameter/dust = 0.125
+shader_parameter/dist_fade = 0.35
+shader_parameter/pixelation = 1000.0
+shader_parameter/quantization_levels = 256
+shader_parameter/dust_color = Color(0, 0, 0, 1)
+shader_parameter/saturation = 1.0
+shader_parameter/layers = 7.0
+shader_parameter/iterations = 12
+
+[node name="auth" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_8k5td")
+
+[node name="stars" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_5jlks")
+position = Vector2(2791, 1312)
+scale = Vector2(28.1484, 10.538)
+texture = ExtResource("3_iax2n")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(500, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -75.0
+offset_right = 250.0
+offset_bottom = 176.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_right = 497.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 30
+text = "Authorization"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+offset_left = 53.0
+offset_top = 74.0
+offset_right = 441.0
+offset_bottom = 114.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+text = "Password"
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Panel/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+text = "Faction ID"
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Panel/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="factionId" type="TextEdit" parent="Panel/HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "124"
+
+[node name="password" type="TextEdit" parent="Panel/HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "124"
+
+[node name="Login" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 167.0
+offset_right = 440.0
+offset_bottom = 217.0
+text = "Login"
+
+[node name="error" type="Label" parent="Panel"]
+visible = false
+layout_mode = 0
+offset_left = 363.0
+offset_top = 174.0
+offset_right = 445.0
+offset_bottom = 219.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Error "
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="pressed" from="Panel/Login" to="." method="_on_login_pressed"]
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_http_request_request_completed"]

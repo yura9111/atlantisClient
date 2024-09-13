@@ -1,0 +1,1948 @@
+{
+  "administrative": {
+	"email": "half-life3@valve.com",
+	"password": "password",
+	"password_unset": false,
+	"show_unit_attitudes": false,
+	"times_sent": true
+  },
+  "attitudes": {
+	"ally": [],
+	"default": "neutral",
+	"friendly": [],
+	"hostile": [],
+	"neutral": [],
+	"unfriendly": [
+	  {
+		"name": "Creatures",
+		"number": 2
+	  }
+	]
+  },
+  "date": {
+	"month": "January",
+	"year": 1
+  },
+  "engine": {
+	"ruleset": "NewOrigins",
+	"ruleset_version": "3.0.0 (beta)",
+	"version": "5.2.5 (beta)"
+  },
+  "events": [
+	{
+	  "category": "maintenance",
+	  "message": "Claims 50 silver for maintenance.",
+	  "unit": {
+		"name": "Unit",
+		"number": 910
+	  }
+	}
+  ],
+  "item_reports": [
+	{
+	  "description": "leader [LEAD], weight 10, walking capacity 5, moves 2 hexes per month. This race may study all skills to level 5.",
+	  "name": "leader",
+	  "tag": "LEAD"
+	}
+  ],
+  "name": "Copy & Bara Union",
+  "number": 56,
+  "object_reports": [],
+  "regions": [
+	{
+	  "coordinates": {
+		"label": "nexus",
+		"x": 0,
+		"y": 0,
+		"z": 0
+	  },
+	  "description": "Atlantis Nexus is a magical place: the entryway to the world of Atlantis. Enjoy your stay; the city guards should keep you safe as long as you should choose to stay. However, rumor has it that once you have left the Nexus, you can never return.",
+	  "exits": [],
+	  "markets": {
+		"for_sale": [],
+		"wanted": []
+	  },
+	  "present": true,
+	  "products": [],
+	  "province": "The Void",
+	  "structures": [
+		{
+		  "inner_location": true,
+		  "name": "Gateway to plain",
+		  "number": 1,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to forest",
+		  "number": 2,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to mountain",
+		  "number": 3,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to swamp",
+		  "number": 4,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to jungle",
+		  "number": 5,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to desert",
+		  "number": 6,
+		  "type": "Gateway",
+		  "units": null
+		},
+		{
+		  "inner_location": true,
+		  "name": "Gateway to tundra",
+		  "number": 7,
+		  "type": "Gateway",
+		  "units": null
+		}
+	  ],
+	  "terrain": "nexus",
+	  "units": [
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Guardsmen",
+			"number": 1
+		  },
+		  "flags": {
+			"avoid": false,
+			"guard": true
+		  },
+		  "items": [
+			{
+			  "amount": 500,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			},
+			{
+			  "amount": 500,
+			  "name": "sword",
+			  "plural": "swords",
+			  "tag": "SWOR"
+			},
+			{
+			  "amount": 500,
+			  "name": "plate armor",
+			  "plural": "plate armor",
+			  "tag": "PARM"
+			}
+		  ],
+		  "name": "City Guard",
+		  "number": 1
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Guardsmen",
+			"number": 1
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "City Mage",
+		  "number": 2
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Kiiran",
+			"number": 3
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 857
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Children of the Four Winds",
+			"number": 4
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 858
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Sunshine",
+			"number": 5
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 859
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Githyanki",
+			"number": 6
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 860
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Kowards",
+			"number": 7
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 861
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Fon",
+			"number": 8
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 862
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "La Orden de la Sangre",
+			"number": 9
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 863
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Red Skulls",
+			"number": 10
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 864
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Trade Group",
+			"number": 11
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 865
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Jadetalons",
+			"number": 12
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 866
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Explorers Guild",
+			"number": 13
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 867
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "SuperBober",
+			"number": 14
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 868
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Distant Drummer",
+			"number": 15
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 869
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Wenvonians",
+			"number": 16
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 870
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Les Nains des Monts de Fer",
+			"number": 17
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 871
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Under Mirk Wood",
+			"number": 18
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 872
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Green",
+			"number": 19
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 873
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Lands Kepper",
+			"number": 20
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 874
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Gray Brotherhood",
+			"number": 21
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 875
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Best Faction Ever!!!!!!",
+			"number": 22
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 876
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Mage",
+			"number": 23
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 877
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Merry Magicians",
+			"number": 24
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 878
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Silver Hand",
+			"number": 25
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 879
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Nekojin Empire",
+			"number": 26
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 880
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Wistful Thinking",
+			"number": 27
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 881
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Dark League",
+			"number": 28
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 882
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Lord of Drama",
+			"number": 29
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 883
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Trader Enclave",
+			"number": 30
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 884
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Order of Tolin",
+			"number": 31
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 885
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Elder Tree Forests",
+			"number": 32
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 886
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Greywolf",
+			"number": 33
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 887
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Queen XOT",
+			"number": 34
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 888
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Buka",
+			"number": 35
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 889
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Shestoper",
+			"number": 36
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 890
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Voras",
+			"number": 37
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 891
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Drow",
+			"number": 38
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 892
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Mantzikert",
+			"number": 39
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 893
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Filcist",
+			"number": 40
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 894
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Fishmongers' Guild",
+			"number": 41
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 895
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Gyperboreya",
+			"number": 42
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 896
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "squirrels",
+			"number": 43
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 897
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Truth Seekers",
+			"number": 44
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 898
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Order of the Egret",
+			"number": 45
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 899
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Stormbringer",
+			"number": 46
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 900
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Kweo Keegii",
+			"number": 47
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 901
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Sailors Guild",
+			"number": 48
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 902
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Faction",
+			"number": 49
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 903
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Kingz",
+			"number": 50
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 904
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Tellurus",
+			"number": 51
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 905
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "M9",
+			"number": 52
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 906
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Archon Dominion",
+			"number": 53
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 907
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Optimates",
+			"number": 54
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 908
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Surveyors",
+			"number": 55
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 909
+		},
+		{
+		  "capacity": {
+			"flying": 0,
+			"riding": 0,
+			"swimming": 0,
+			"walking": 15
+		  },
+		  "faction": {
+			"name": "Copy & Bara Union",
+			"number": 56
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false,
+			"holding": false,
+			"no_aid": false,
+			"no_cross_water": false,
+			"reveal": "faction",
+			"sharing": false,
+			"spoils": "all",
+			"taxing": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 910,
+		  "orders": [],
+		  "own_unit": true,
+		  "skills": {
+			"can_study": [
+			  {
+				"name": "earthquake",
+				"tag": "EQUA"
+			  },
+			  {
+				"name": "force shield",
+				"tag": "FSHI"
+			  },
+			  {
+				"name": "energy shield",
+				"tag": "ESHI"
+			  },
+			  {
+				"name": "spirit shield",
+				"tag": "SSHI"
+			  },
+			  {
+				"name": "magical healing",
+				"tag": "MHEA"
+			  },
+			  {
+				"name": "farsight",
+				"tag": "FARS"
+			  },
+			  {
+				"name": "mind reading",
+				"tag": "MIND"
+			  },
+			  {
+				"name": "weather lore",
+				"tag": "WEAT"
+			  },
+			  {
+				"name": "earth lore",
+				"tag": "EART"
+			  },
+			  {
+				"name": "necromancy",
+				"tag": "NECR"
+			  },
+			  {
+				"name": "demon lore",
+				"tag": "DEMO"
+			  },
+			  {
+				"name": "illusion",
+				"tag": "ILLU"
+			  },
+			  {
+				"name": "artifact lore",
+				"tag": "ARTI"
+			  }
+			],
+			"known": [
+			  {
+				"level": 1,
+				"name": "observation",
+				"skill_days": 30,
+				"tag": "OBSE"
+			  },
+			  {
+				"level": 1,
+				"name": "force",
+				"skill_days": 30,
+				"tag": "FORC"
+			  },
+			  {
+				"level": 1,
+				"name": "pattern",
+				"skill_days": 30,
+				"tag": "PATT"
+			  },
+			  {
+				"level": 1,
+				"name": "spirit",
+				"skill_days": 30,
+				"tag": "SPIR"
+			  },
+			  {
+				"level": 1,
+				"name": "gate lore",
+				"skill_days": 30,
+				"tag": "GATE"
+			  },
+			  {
+				"level": 1,
+				"name": "fire",
+				"skill_days": 30,
+				"tag": "FIRE"
+			  },
+			  {
+				"level": 3,
+				"name": "combat",
+				"skill_days": 180,
+				"tag": "COMB"
+			  }
+			]
+		  },
+		  "visited": [],
+		  "weight": 10
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Deathscarab",
+			"number": 57
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 911
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Turbulent Nomads",
+			"number": 58
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 912
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "MalibuWest",
+			"number": 59
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 913
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Men In Tights",
+			"number": 60
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 914
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Carnival of Shadows",
+			"number": 61
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 915
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Borg",
+			"number": 62
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 916
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Clueless Bastards",
+			"number": 63
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 917
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Roses on White Lace",
+			"number": 64
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 918
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Silverpeak Duskwood",
+			"number": 65
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 919
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Lunaria",
+			"number": 66
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 920
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Nonentity",
+			"number": 67
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 921
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Broken Hope",
+			"number": 68
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 922
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Cartographers",
+			"number": 69
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 923
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "The Wandering Minstrels",
+			"number": 70
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 924
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Groo the Wanderer",
+			"number": 71
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 925
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Heirs of the Sun",
+			"number": 72
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 926
+		},
+		{
+		  "attitude": "neutral",
+		  "faction": {
+			"name": "Cone's Magicians",
+			"number": 73
+		  },
+		  "flags": {
+			"avoid": false,
+			"behind": true,
+			"guard": false
+		  },
+		  "items": [
+			{
+			  "amount": 1,
+			  "name": "leader",
+			  "plural": "leaders",
+			  "tag": "LEAD"
+			}
+		  ],
+		  "name": "Unit",
+		  "number": 927
+		}
+	  ],
+	  "wages": {
+		"amount": 0
+	  }
+	}
+  ],
+  "skill_reports": [
+	{
+	  "description": "A unit with this skill can see stealthy units or monsters whose stealth rating is less than or equal to the observing unit's Observation level. The unit can also determine the faction owning a unit, provided its Observation level is higher than the other unit's Stealth level. This skill costs 50 silver per month of study.",
+	  "level": 1,
+	  "name": "observation",
+	  "tag": "OBSE"
+	},
+	{
+	  "description": "The Force skill is not directly useful to a mage, but is rather one of the Foundation skills on which other magical skills are based. The Force skill determines the power of the magical energy that a mage is able to use. Note that a Force skill level of 0 does not indicate that a mage cannot use magical energy, but rather can only perform magical acts that do not require great amounts of power. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "force",
+	  "tag": "FORC"
+	},
+	{
+	  "description": "The Pattern skill is not directly useful to a mage, but is rather one of the Foundation skills on which other magical skills are based. A mage's Pattern skill indicates the ability to handle complex magical patterns, and is important for complicated tasks such as healing and controlling nature. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "pattern",
+	  "tag": "PATT"
+	},
+	{
+	  "description": "The Spirit skill is not directly useful to a mage, but is rather one of the Foundation skills on which other magical skills are based. Spirit skill indicates the mage's ability to control and affect magic and other powers beyond the material world. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "spirit",
+	  "tag": "SPIR"
+	},
+	{
+	  "description": "Gate Lore is the art of detecting and using magical Gates, which are spread through the world. The Gates are spread out randomly, so there is no correlation between the Gate number and the Gate's location. A mage with skill 1 in Gate Lore can see a Gate if one exists in the same region as the mage. This detection is automatic; the Gate will appear in the region report. A mage with skill 1 in Gate Lore may also jump through a Gate into another region on the same level containing a gate, selected at random. To use Gate Lore in this manner, use the syntax CAST Gate_Lore RANDOM UNITS <unit> ... UNITS is followed by a list of units to follow the mage through the Gate (the mage always jumps through the Gate). At level 1, the mage may carry 15 weight units through the Gate (including the weight of the mage). This skill requires pattern [PATT] 1 and spirit [SPIR] 1 to begin to study. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "gate lore",
+	  "tag": "GATE"
+	},
+	{
+	  "description": " A mage with this skill can cast a fireball in battle. This ability does between 2 and 10 times the skill level of the mage energy attacks and each attack deals 1 damage. In order to use this spell in combat, the mage should use the COMBAT order to set it as his combat spell. This skill requires force [FORC] 1 to begin to study. This skill costs 100 silver per month of study.",
+	  "level": 1,
+	  "name": "fire",
+	  "tag": "FIRE"
+	},
+	{
+	  "description": "This skill gives the unit a bonus in hand to hand combat. Also, a unit with this skill may TAX or PILLAGE. This skill costs 10 silver per month of study.",
+	  "level": 1,
+	  "name": "combat",
+	  "tag": "COMB"
+	},
+	{
+	  "description": "No skill report.",
+	  "level": 2,
+	  "name": "combat",
+	  "tag": "COMB"
+	},
+	{
+	  "description": "No skill report.",
+	  "level": 3,
+	  "name": "combat",
+	  "tag": "COMB"
+	}
+  ],
+  "statistics": [
+	{
+	  "item_name": "leader [LEAD]",
+	  "max": 1,
+	  "rank": 1,
+	  "total": 71
+	}
+  ],
+  "status": {
+	"apprentices": {
+	  "allowed": 3,
+	  "current": 0,
+	  "name": "Apprentice"
+	},
+	"mages": {
+	  "allowed": 2,
+	  "current": 1
+	},
+	"quartermasters": {
+	  "allowed": 2,
+	  "current": 0
+	},
+	"regions": {
+	  "allowed": 10,
+	  "current": 0
+	}
+  },
+  "type": {
+	"magic": 1,
+	"martial": 1
+  },
+  "unclaimed_silver": 10250
+}

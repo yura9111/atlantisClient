@@ -1,0 +1,16 @@
+res://modules/auth/auth.tscn::e262f4cdbfc64c80514e86d6d6fa2a32::1726200380::res://.godot/exported/133200997/export-c8fd8ea45697839d200417ce9c373e2f-auth.scn
+res://modules/nexus/nexus.tscn::7fcddbc2462cd962d11873fa4d15e764::1726200361::res://.godot/exported/133200997/export-6e4f4132baa76d3500a505d0dfeb2761-nexus.scn
+res://modules/UI/Button.tscn::218ccbeb0a20bff7b72f886ba2e77597::1726162116::res://.godot/exported/133200997/export-1d74a56175ff141ec7461bebb8b91044-Button.scn
+res://modules/UI/progressBar.tscn::cdcf0bafbec81f84266ee686fae47487::1726162116::res://.godot/exported/133200997/export-ac03a975ed100180b94398ebda4ed3d6-progressBar.scn
+res://modules/UI/ResourceBar.tscn::ea331c41dee935fe4773e0eaed1c85f6::1726162116::res://.godot/exported/133200997/export-4dda618d4fd70ca56b0b1c27dfb3baf2-ResourceBar.scn
+res://modules/units/highlight_material.tres::f6dcc0db239548eec0140098ab97af1d::1726190719::res://.godot/exported/133200997/export-b3b36b2b3d4c0064c929db2d3a03794d-highlight_material.res
+res://modules/units/mage.tscn::c4448f8b15e84eb3170b381dafce055c::1726200361::res://.godot/exported/133200997/export-bf5d62f5ea7afbe01461ee89a38ac8bf-mage.scn
+res://resources/fonts/black.tres::0c4a34d4caa970279a1a50a1b722b975::1726162116::res://.godot/exported/133200997/export-8f60d1e29b67ef444e0285a59ca33a17-black.res
+res://resources/fonts/white.tres::60e82432c59ea197737633542056dc73::1726162116::res://.godot/exported/133200997/export-628330a4655d57b3d72db18a8155131c-white.res
+res://resources/tileSet.tres::0e7712e218698837adb1ddfce7155c74::1726162116::res://.godot/exported/133200997/export-206a2a74d89a7c602663fa31e43b6549-tileSet.res
+res://vendor/beam/Beam.tscn::bf48f1cfee083bb33841425c28f8ab8d::1726162116::res://.godot/exported/133200997/export-c01828e16f99a5273d1ee68035265c2f-Beam.scn
+res://vendor/camera2D/Camera2D.tscn::c1c064029d86f24b3e43ce3a453c8449::1726162116::res://.godot/exported/133200997/export-70125b7f860069e7d8f716b3a8e6d71f-Camera2D.scn
+res://vendor/map/map.tscn::856e578b10175b0c7f4b091e1c5ee405::1726166638::res://.godot/exported/133200997/export-193c032d8c6a5150dad611d3767af597-map.scn
+res://vendor/shaders/greyscale.tres::f97807892d9ba002af534ca750b0be6b::1726162137::res://.godot/exported/133200997/export-348edf0feaaa6986140f106f37f32be0-greyscale.res
+res://vendor/shaders/treeShader.tres::b9b5042b9c7ec381b9ffe784e2045521::1726162116::res://.godot/exported/133200997/export-e267d842365429bbe98ed074b49a381f-treeShader.res
+res://default_env.tres::818ec9b85ca09273c51b05ed4f653083::1726200380::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res

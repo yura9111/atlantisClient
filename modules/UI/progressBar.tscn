@@ -1,0 +1,88 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://resources/fonts/white.tres" type="FontFile" id=1]
+[ext_resource path="res://images/UI/UI_Bar.png" type="Texture2D" id=2]
+[ext_resource path="res://images/UI/UI_Bar_Fill_Orange.png" type="Texture2D" id=3]
+[ext_resource path="res://modules/UI/progressBar.gd" type="Script" id=4]
+
+[node name="progressBar" type="NinePatchRect"]
+offset_left = 224.0
+offset_top = 273.0
+offset_right = 545.0
+offset_bottom = 348.0
+texture = ExtResource( 2 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+script = ExtResource( 4 )
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+anchor_right = 0.096
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = -6.0
+clip_contents = true
+
+[node name="fillBar" type="NinePatchRect" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_vertical = 0
+custom_minimum_size = Vector2( 50, 0 )
+texture = ExtResource( 3 )
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Panel2" type="Panel" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+anchor_right = 0.061
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = -6.0
+
+[node name="Panel" type="Panel" parent="Panel2"]
+self_modulate = Color( 1, 1, 1, 0 )
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 10.0
+clip_contents = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="fillBar" type="NinePatchRect" parent="Panel2/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+custom_minimum_size = Vector2( 63, 0 )
+texture = ExtResource( 3 )
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_fonts/font = ExtResource( 1 )
+text = "50%"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true
+}

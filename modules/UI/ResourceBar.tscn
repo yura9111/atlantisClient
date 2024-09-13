@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://images/UI/UI_Banner_Wood.png" type="Texture2D" id=1]
+[ext_resource path="res://images/icons/wood.png" type="Texture2D" id=2]
+[ext_resource path="res://resources/fonts/white.tres" type="FontFile" id=3]
+[ext_resource path="res://modules/UI/ResourceBar.gd" type="Script" id=4]
+
+[node name="ResourceBar" type="NinePatchRect"]
+offset_right = 150.0
+offset_bottom = 50.0
+custom_minimum_size = Vector2( 175, 0 )
+texture = ExtResource( 1 )
+patch_margin_left = 25
+patch_margin_top = 25
+patch_margin_right = 25
+patch_margin_bottom = 25
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+resourceTexture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+offset_left = 113.279
+offset_top = 1.52588e-05
+offset_right = 157.279
+offset_bottom = 45.0
+theme_override_fonts/font = ExtResource( 3 )
+text = "22"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="wood2" type="TextureRect" parent="."]
+offset_left = 11.0126
+offset_top = -18.0126
+offset_right = 95.0126
+offset_bottom = 65.9874
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
