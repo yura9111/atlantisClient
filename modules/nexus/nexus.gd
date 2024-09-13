@@ -1,5 +1,6 @@
 extends Node2D
 
+var initFinished = false;
 var selected = null;
 var orders = Orders.new();
 var terrainTypes = [
@@ -12,7 +13,13 @@ var terrainTypes = [
 	"tundra"
 ]
 
+func _ready():
+	await get_tree().create_timer(1).timeout
+	if initFinished == false:
+		init();
+
 func init(gameReport = null):
+	initFinished = true;
 	if gameReport == null:
 		var file = FileAccess.open("res://testData/report-neworigins-v7-56-0.json", FileAccess.READ)
 		var content = file.get_as_text()
